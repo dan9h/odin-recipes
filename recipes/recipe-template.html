@@ -4,36 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Name</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <h1>Recipe Name</h1>
-    <img src="../assets/images/img-placeholder.jpg" alt="Image Placeholder">
-        
-    <section>
-        <h2>Description</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam provident eius eaque praesentium dolor ad commodi quidem sit consectetur repellendus tempora aut, non sed neque, error ea unde id dolores!</p>
-    </section>
+    <main>
+        <img src="../assets/images/img-placeholder.jpg" alt="Image Placeholder" class="recipe__image">
+        <h1 class="recipe__name">Recipe Name</h1>
+        <p class="recipe__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam provident eius eaque praesentium dolor ad commodi quidem sit consectetur repellendus tempora aut, non sed neque, error ea unde id dolores!</p>
 
-    <section>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ul>
-    </section>
+        <section class="recipe__preparation-time">
+            <h3>Preparation time</h3>
+            <ul>
+                <li><span class="prep-time-label">Total:</span> Approximately # minutes</li>
+                <li><span class="prep-time-label">Preparation:</span> # minutes</li>
+                <li><span class="prep-time-label">Cooking:</span> # minutes</li>
+            </ul>
+        </section>
 
-    <section>
-        <h2>Steps</h2>
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-            <li>Item 5</li>
-        </ol>
-    </section>
+        <section>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1 Lorem ipsum dolor sit amet.</li>
+                <li>2 Amet facere in sit cum.</li>
+                <li>3 Laudantium earum adipisci neque ipsum?</li>
+                <li>4 Veniam veritatis commodi optio laborum!</li>
+                <li>5 Fugiat minima dolorem perferendis consequatur?</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Exercitationem sint maiores consectetur quod!</li>
+                <li>Ut excepturi autem explicabo. Beatae.</li>
+                <li>Provident voluptatibus aliquam aperiam id?</li>
+                <li>Totam corrupti reprehenderit distinctio tempora.</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Nutrition</h2>
+            <p>The table below shows nutritional values per serving without the additional fillings.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th scope="row">Calories</th>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Carbs</th>
+                        <td>0g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Protein</th>
+                        <td>0g</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Fat</th>
+                        <td>0g</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
 </body>
 </html>
